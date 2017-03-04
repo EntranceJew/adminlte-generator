@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "074ffb16baec47c024a685e011aaa9f2",
-    "content-hash": "9b6b62c185fde476001993debd60c3c0",
+    "hash": "eec35bd39a9932d11f34513c7e63a01e",
+    "content-hash": "69e1afdf6bf1c02581dbfc419ba43916",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -785,6 +785,53 @@
             "time": "2016-09-24 11:41:12"
         },
         {
+            "name": "infyomlabs/generator-builder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/InfyOmLabs/generator-builder.git",
+                "reference": "56b73a4a3844404ccb8e708eab74ce7b8a0e1d3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/InfyOmLabs/generator-builder/zipball/56b73a4a3844404ccb8e708eab74ce7b8a0e1d3d",
+                "reference": "56b73a4a3844404ccb8e708eab74ce7b8a0e1d3d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "InfyOm\\GeneratorBuilder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mitul Golakiya",
+                    "email": "me@mitul.me"
+                }
+            ],
+            "description": "InfyOm Laravel Generator GUI Builder",
+            "keywords": [
+                "api",
+                "builder",
+                "crud",
+                "generator",
+                "gui",
+                "interface",
+                "laravel",
+                "view"
+            ],
+            "time": "2016-08-23 14:03:55"
+        },
+        {
             "name": "infyomlabs/laravel-generator",
             "version": "5.3.x-dev",
             "source": {
@@ -794,7 +841,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator/zipball/892a1462ec9a8ad2eaf97c252f0fe81abc574f7b",
+                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator/zipball/323447882e53990a39bb54bd0ee69d79aa67e1ba",
                 "reference": "892a1462ec9a8ad2eaf97c252f0fe81abc574f7b",
                 "shasum": ""
             },
@@ -1251,7 +1298,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/c4c87916c34e04aa9d4e860315ab1858304d786a",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/05373f429f2b95c28ed04b1c56534fdba356cc94",
                 "reference": "c4c87916c34e04aa9d4e860315ab1858304d786a",
                 "shasum": ""
             },
@@ -4890,7 +4937,8 @@
         "laravelcollective/html": 20,
         "infyomlabs/adminlte-templates": 20,
         "infyomlabs/swagger-generator": 20,
-        "jlapp/swaggervel": 20
+        "jlapp/swaggervel": 20,
+        "infyomlabs/generator-builder": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

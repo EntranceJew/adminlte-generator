@@ -166,6 +166,7 @@ return [
         /*
          * Package Service Providers...
          */
+	Jlapp\Swaggervel\SwaggervelServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Yajra\Datatables\DatatablesServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
@@ -173,6 +174,7 @@ return [
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
         InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
+	\InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
         /*
          * Application Service Providers...
          */
